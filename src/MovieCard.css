@@ -13,3 +13,12 @@
 .movie-card:hover {
   transform: scale(1.05);
 }
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
